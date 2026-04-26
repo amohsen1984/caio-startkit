@@ -1,0 +1,19 @@
+{
+  "name": "caio-startkit",
+  "version": "1.0.0",
+  "description": "Guided AI initiative tool based on the CAIO framework — conversational slash commands that generate business documents for each phase.",
+  "keywords": ["caio", "ai", "startkit", "claude", "claude-code", "ai-strategy"],
+  "license": "MIT",
+  "bin": {
+    "caio-startkit": "./bin/init.js"
+  },
+  "files": [
+    ".github/agents/caio.*.agent.md",
+    ".github/prompts/caio.*.prompt.md",
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}

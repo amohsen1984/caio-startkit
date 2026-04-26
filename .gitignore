@@ -1,0 +1,14 @@
+# Runtime output — created when you run the commands
+initiatives/
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.tmp
