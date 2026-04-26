@@ -6,6 +6,8 @@ That framework is what you run in [Claude Code](https://claude.ai/code)—one sl
 
 No UI. No backend. No build step. Just conversations that write files to your local machine.
 
+**Beta:** This project is still in early shape. Several domain experts are trying it out and sharing feedback so the workflows and outputs can improve. If you use it, reactions and suggestions are welcome.
+
 ---
 
 ## Installation
