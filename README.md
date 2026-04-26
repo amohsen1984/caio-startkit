@@ -1,6 +1,8 @@
 # caio-startkit
 
-Guided AI initiative tool based on the **CAIO (Chief AI Officer)** framework. A set of conversational slash commands for [Claude Code](https://claude.ai/code) that walk you through each phase of an AI initiative, generating professional Markdown business documents along the way.
+**caio-startkit** is a **framework for the logistics of AI projects**: structured steps, artifacts, and handoffs from first assessment through production and adoption, so the initiative stays coherent.
+
+That framework is what you run in [Claude Code](https://claude.ai/code)—one slash command per phase, each conversation writing a professional Markdown document on disk.
 
 No UI. No backend. No build step. Just conversations that write files to your local machine.
 
@@ -44,18 +46,18 @@ Run commands inside Claude Code. Each command guides you through a conversation 
 ### Example
 
 ```
-/caio.assess eurostar
-/caio.usecase eurostar
-/caio.production eurostar
-/caio.adopt eurostar
-/caio.export eurostar
+/caio.assess northwind
+/caio.usecase northwind
+/caio.production northwind
+/caio.adopt northwind
+/caio.export northwind
 ```
 
 Produces:
 
 ```
 initiatives/
-└── eurostar/
+└── northwind/
     ├── phase-1-assessment.md
     ├── phase-2-usecase.md
     ├── phase-3-production.md
@@ -77,7 +79,7 @@ See [docs/quickstart.md](docs/quickstart.md) for a step-by-step walkthrough.
 
 ---
 
-## The CAIO Framework
+## Phases this framework covers
 
 | Phase | Covers |
 |---|---|
