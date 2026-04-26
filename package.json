@@ -8,8 +8,7 @@
     "caio-startkit": "./bin/init.js"
   },
   "files": [
-    ".github/agents/caio.*.agent.md",
-    ".github/prompts/caio.*.prompt.md",
+    ".claude/commands/caio.*.md",
     "bin/",
     "README.md"
   ],

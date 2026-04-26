@@ -16,7 +16,7 @@ Run once from the root of any repository:
 npx caio-startkit
 ```
 
-Installs the agent and prompt files into `.github/agents/` and `.github/prompts/` and adds `initiatives/` to your `.gitignore`.
+Installs the command files into `.claude/commands/` and adds `initiatives/` to your `.gitignore`.
 
 ### Option 2 — Clone
 

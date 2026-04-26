@@ -15,14 +15,13 @@ if (TARGET === PKG_ROOT) {
 }
 
 const COPY_PAIRS = [
-  { src: '.github/agents',  dest: '.github/agents' },
-  { src: '.github/prompts', dest: '.github/prompts' },
+  { src: '.claude/commands', dest: '.claude/commands' },
 ];
 
 function installFiles(srcDir, destDir) {
   fs.mkdirSync(destDir, { recursive: true });
 
-  const files = fs.readdirSync(srcDir).filter(f => f.startsWith('caio.'));
+  const files = fs.readdirSync(srcDir).filter(f => f.startsWith('caio.') && f.endsWith('.md'));
   let installed = 0;
 
   for (const file of files) {
