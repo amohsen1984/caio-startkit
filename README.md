@@ -21,7 +21,7 @@ Installs the agent and prompt files into `.github/agents/` and `.github/prompts/
 ### Option 2 — Clone
 
 ```bash
-git clone https://github.com/abdulelelah-ashour/caio-startkit.git
+git clone git@github.com:amohsen1984/caio-startkit.git
 cd caio-startkit
 ```
 

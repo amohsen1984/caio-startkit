@@ -80,4 +80,4 @@ updateGitignore();
 console.log(`\n${total === 0 ? 'Nothing new to install — all files already present.' : `Done! ${total} file(s) installed.`}`);
 console.log('\nGet started:\n');
 console.log('  /caio.assess <your-initiative-name>\n');
-console.log('Full guide: https://github.com/your-username/caio-startkit\n');
+console.log('Full guide: https://github.com/amohsen1984/caio-startkit\n');
